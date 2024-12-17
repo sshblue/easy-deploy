@@ -2,89 +2,91 @@
 
 A simple and configurable deployment tool for your GitHub projects.
 
-## 📋 Fonctionnalités
+## 📋 Features
 
-- Interface interactive en ligne de commande
-- Détection automatique des fichiers modifiés
-- Sélection des fichiers à déployer
-- Messages de statut colorés
-- Configuration externalisée
-- Compatible avec GitHub Actions
+- Interactive command-line interface
+- Automatic detection of modified files
+- Selective file deployment
+- Colored status messages
+- Externalized configuration
+- GitHub Actions compatible
 
 ## 🛠️ Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository:
 ```bash
-git clone https://github.com/votre-username/easy-deploy.git
+git clone https://github.com/sshblue/easy-deploy.git
 ```
 
-2. Configurez le fichier `config.json` avec vos paramètres :
+2. Configure the `config.json` file with your settings:
 ```json
 {
     "projectSettings": {
-        "projectPath": "chemin/vers/votre/projet",
-        "projectName": "Nom de votre projet",
+        "projectPath": "path/to/your/project",
+        "projectName": "Your Project Name",
         "deploymentTool": "GitHub Actions"
     }
 }
 ```
 
-## 💻 Utilisation
+## 💻 Usage
 
-### Commande simple
+### Simple command
 ```bash
 .\deploy.bat
 ```
 
-### Avec message de commit
+### With commit message
 ```bash
-.\deploy.bat -m "votre message de commit"
+.\deploy.bat -m "your commit message"
 ```
 
-### Avec fichiers spécifiques
+### With specific files
 ```bash
-.\deploy.bat -f fichier1.txt fichier2.js
+.\deploy.bat -f file1.txt file2.js
 ```
 
-### Avec message et fichiers spécifiques
+### With message and specific files
 ```bash
-.\deploy.bat -m "votre message" -f fichier1.txt fichier2.js
+.\deploy.bat -m "your message" -f file1.txt file2.js
 ```
 
 ## ⚙️ Configuration
 
-Le fichier `config.json` permet de personnaliser :
+The `config.json` file allows you to customize:
 
 - `projectSettings`
-  - `projectPath`: Chemin vers votre projet
-  - `projectName`: Nom de votre projet
-  - `deploymentTool`: Outil de déploiement utilisé
+  - `projectPath`: Path to your project
+  - `projectName`: Your project name
+  - `deploymentTool`: Deployment tool used
 
-- `display.colors`: Couleurs pour différents types de changements
-  - `modified`: Fichiers modifiés
-  - `added`: Nouveaux fichiers
-  - `deleted`: Fichiers supprimés
-  - `renamed`: Fichiers renommés
-  - `untracked`: Fichiers non suivis
+- `display.colors`: Colors for different types of changes
+  - `modified`: Modified files
+  - `added`: New files
+  - `deleted`: Deleted files
+  - `renamed`: Renamed files
+  - `untracked`: Untracked files
 
-## 📝 Structure du projet
+## 📝 Project Structure
 
 ```
 easy-deploy/
-├── deploy.bat       # Script batch d'entrée
-├── deploy.ps1       # Script PowerShell principal
-├── config.json      # Configuration du déploiement
+├── deploy.bat       # Entry batch script
+├── deploy.ps1       # Main PowerShell script
+├── config.json      # Deployment configuration
 └── README.md        # Documentation
 ```
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
+Contributions are welcome! Feel free to:
 
-1. Fork le projet
-2. Créer une branche (`git checkout -b feature/amelioration`)
-3. Commit vos changements (`git commit -m 'Ajout d'une fonctionnalité'`)
-4. Push vers la branche (`git push origin feature/amelioration`)
-5. Ouvrir une Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -m 'Add a feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
 
+## 📄 License
 
+This project is licensed under the MIT License. See the `LICENSE` file for details.
