@@ -1,6 +1,6 @@
 # Easy Deploy Tool 🚀
 
-Un outil de déploiement simple et configurable pour vos projets GitHub.
+A simple and configurable deployment tool for your GitHub projects.
 
 ## 📋 Fonctionnalités
 
@@ -87,6 +87,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 4. Push vers la branche (`git push origin feature/amelioration`)
 5. Ouvrir une Pull Request
 
-## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
