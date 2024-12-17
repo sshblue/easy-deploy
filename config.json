@@ -1,0 +1,16 @@
+{
+    "projectSettings": {
+        "projectPath": "chemin/vers/votre/projet",
+        "projectName": "Nom de votre projet",
+        "deploymentTool": "GitHub Actions"
+    },
+    "display": {
+        "colors": {
+            "modified": "Yellow",
+            "added": "Green",
+            "deleted": "Red",
+            "renamed": "Blue",
+            "untracked": "Gray"
+        }
+    }
+}
